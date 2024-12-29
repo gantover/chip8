@@ -1,3 +1,6 @@
+#ifndef H_WINDOW
+#define H_WINDOW
+
 #include "hardware.h"
 #include <SDL2/SDL_events.h>
 #include <SDL2/SDL_render.h>
@@ -17,3 +20,5 @@ public:
   int drawBuffer();
   int close();
 };
+
+#endif
